@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* NAVBAR */
+#nav-logo{
+    width: 40%;
+    margin-left: 115px;
+}
+.nav-content li a{
+    font-size: 14px;
+    font-weight: 100;
+    margin: 0px 3px;
+    padding-left: 10px;
+    color: #000;
+    
+}
+.nav-content li a:hover{
+    color: blue !important;   
+}
+.navbar{
+    position: sticky;
+    top: 0;
+    border-color: #e7e7e7;
+}
+
+/* MISSION */
+.mission{
+    margin: 50px 120px;
+}
+.headings{
+    border-bottom: 2px solid rgb(87, 0, 128);
+    width: 13%;
+    height: 45px;
+    margin: auto;
+    font-weight: 300;
+    color: #676767;
+}
+.mission p{
+    margin-top: 30px;
+}
+.mission hr{
+    width: 110%;
+    margin-left: -55px;
+    margin-top: 45px;
+}
+.mission-sec{
+    display: flex;
+    padding: 0px 120px;
+}
+.mission-text{
+    margin-left: 30px;
+}
+.mission-text h4{
+    color: rgb(87, 0, 128);
+    padding-top: 20px;
+}
+.mission-text p{
+    font-size: 14px;
+}
+
+/* WHAT WE DO */
+.container-1{
+    background-color: #EDEDED;
+    margin-top: 40px;
+}
+.first-sec{
+    padding-top: 50px;
+}
+.first-sec h2{
+    width: 15%; 
+    border-width: 10%;  
+}
+.first-sec p{
+    padding: 30px 65px;
+    text-align: center;
+    font-size: 15px;
+}
+.section-head{
+    display: flex;
+    margin-left: 30px;
+}
+.second-sec{
+    margin: 10px 10px;
+}
+.second-sec img{
+    width: 100%;
+}
+.special-img{
+    width: 50%;
+}
+.special-img1{
+    width: 44%;
+}
+#sales-img{
+    width: 100%;
+    height: 61%;
+}
+#pharma-img{
+    width: 100%;
+    height: 57%;
+}
+.second-sec h4{
+    text-align: center;
+    font-size: 20px;
+    color: #676767;
+    margin-top: 10%;
+    font-weight: 600;
+}
+.second-sec p{
+    text-align: center;
+    font-size: 14px;
+    font-weight: 100;
+    margin-top: 20px;
+    color: #727272;
+}
+
+.container-2{
+    background-color: white;
+    margin-top: 0px;
+}
+.first-sec .heading-1{
+    width: 17%;
+    text-align: center;
+}
+ 
+/* TEAM */
+.ceo-sec{
+    display: flex;
+    margin: 20px 50px 60px 50px;
+}
+.ceo-info{
+    margin: 45px 0px 0px 60px;
+}
+.sec-img img{
+    width: 100%;
+}
+
+/* PARTNERS */
+#heading-2{
+    width: 18%;
+}
+.section-head .second-sec img{
+    width: 100%;
+}
+.sec-partner{
+    display: grid;
+    align-items: center;
+    grid-gap: 90px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: auto;
+    left: 15%;
+    position: relative;
+}
+.sec-partner2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 9%;
+    margin-top: 3%;
+}
+
+/* FOOTER */
+.footer{
+    background-color: #222222;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    height: 400px;
+    margin-top: 6%;
+}
+.footer-first{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 15%;
+    margin-left: 25%;   
+}
+.footer-first img{
+    width: 95%;
+    padding: 3px;
+    margin-left: -6px;
+}
+.link-para p{
+    line-height: 10px;
+}
+.footer-first h3{
+    padding-bottom: 4px;
+    font-size: 25px;
+    border-bottom: 2px solid blue;
+    margin-bottom: 30px;
+    border-width: -26px;
+    width: 74%
+}
+#item-para{
+    line-height: 18px; 
+    font-size: 15px; 
+}
+.list-items{
+    list-style: none;
+    display: flex;
+    left: -10%;
+    position: relative;
+}
+.list-items a{
+    color: white;
+    text-decoration: none;
+    padding-left: 10px;
+}
+.icons{
+    position: relative;
+    left: -14px;
+}
+#special{
+    margin-left: 5px;
+    line-height: 13px;
+}
+.list-items p{
+    margin-top: 2px;
+}
+iframe{
+    width: 80%;
+    height: 130%;
+}
+.location-sec{
+    margin-left: 10px;
+}
+.last-foot{
+    background-color: black;
+    height: 50px;
+    margin-top: 1px;
+    color: white;
+}
+.last-foot p{
+    padding: 10px 100px;
+}
+
+/* Reasponsive */
+@media (max-width: 1000px) {
+    .first-sec h2{
+        width: 19%;
+    }
+    .second-sec-img{
+        width: 100%;
+    }
+    .first-sec .heading-1{
+        width: 22%;
+    }
+    #heading-2{
+        width: 23%;
+    }
+    
+}
+@media (max-width: 768px){
+    .mission-sec{
+        flex-direction: column;
+        margin-left: 10px;
+    }
+    .mission h2{
+        width: 22%;
+    }
+    .mission hr{
+        width: 120%;
+    }
+    .section-head{
+        flex-direction: column;
+        align-items: center;
+    }
+    .section-head .second-sec img{
+        width: 50%;
+        position: relative;
+        left: 25%;
+    }
+    .ceo-sec{
+        flex-direction: column;
+    }
+    #heading-2{
+        width: 27%;
+    }
+    .sec-partner{
+        display: flex;
+        position: relative;
+        left: 2%;
+        margin-bottom: -4%;
+    }
+    .first-sec h2{
+        width: 23%;
+    }
+    .first-sec .heading-1 {
+        width: 26%;
+    }  
+    #pharma-img{
+        width: 0;
+        height: 0;
+    } 
+    #sales-img{
+        width: 50%;
+    }
+    .sec-partner{
+    display: flex;
+    position: relative;
+    left: 2%;
+    margin-bottom: -4%;
+    gap: 0px
+    }  
+
+}
+
+
+
+
+
+

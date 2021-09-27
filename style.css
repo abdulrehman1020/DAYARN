@@ -78,6 +78,9 @@
     text-align: center;
     font-size: 15px;
 }
+.second-sec img{
+    width: 80%;
+}
 /* .section-head{
     display: flex;
     margin-left: 30px;
@@ -127,7 +130,7 @@
 }
  
 /* TEAM */
-.ceo-sec{
+/* .ceo-sec{
     display: flex;
     margin: 20px 50px 60px 50px;
 }
@@ -136,6 +139,9 @@
 }
 .sec-img img{
     width: 100%;
+} */
+.team-img img{
+    width: 70%;
 }
 
 /* PARTNERS */
@@ -159,6 +165,9 @@
     align-items: center;
     gap: 9%;
     margin-top: 3%;
+}
+.partner-img img{
+    margin: 10px 10px;
 }
 
 /* FOOTER */
@@ -247,9 +256,6 @@ iframe{
     .first-sec h2{
         width: 19%;
     }
-    .second-sec-img{
-        width: 100%;
-    }
     .first-sec .heading-1{
         width: 22%;
     }
@@ -261,6 +267,9 @@ iframe{
     }
     #heading-2{
         width: 23%;
+    }
+    .mission h2{
+        width: 17%;
     }
     
 }
@@ -324,11 +333,95 @@ iframe{
         width: 57%;
         margin-top: 5%;
     }
+    .mission hr {
+        width: 100%;
+        margin-left: 4px;
+    }
+    .mission h2 {
+        width: 28%;
+    }
+    .mission {
+        margin: 50px 10px;
+    }     
+    #mission-img{
+        width: 100%;
+    }
+    .first-sec h2 {
+        width: 38%;
+    }
+    .first-sec p {
+        padding: 30px 0px;
+    } 
+    .first-sec .heading-1 {
+        width: 42%;
+    }
+    #heading-2 {
+        width: 45%;
+    }              
 }
-
-
-
-
-
-
-
+@media (max-width: 375px){
+    #mission-img{
+        width: 100%;
+    }
+    .mission h2 {
+        width: 72%;
+    }
+    .mission {
+        margin: 50px 0px;
+    }
+    .mission h2 {
+        width: 27%;
+    }
+    .first-sec h2 {
+        width: 43%;
+    }
+    .first-sec p {
+        padding: 30px 0px;
+    }
+    .first-sec .heading-1 {
+        width: 47%;
+    }
+    #heading-2 {
+        width: 50%;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+     }  
+     .footer-first{
+        margin-left: 2%;
+        width: 57%;
+        margin-top: 5%;
+    }
+    .last-foot p {
+        padding: 10px 50px
+    }    
+}
+@media (max-width: 320px){
+    .mission hr {
+        width: 80%;
+        margin-left: 25px;
+    } 
+    .mission {
+        margin: 50px 16px
+    }
+    .mission h2 {
+        width: 35%;
+    }   
+    .first-sec h2 {
+        width: 50%;
+    }
+    .first-sec .heading-1 {
+        width: 55%;
+    }  
+    #heading-2 {
+        width: 58%;
+    }
+    .last-foot p {
+        padding: 10px 25px
+    } 
+    .navbar-toggler{
+        width: auto;
+    }                     
+}

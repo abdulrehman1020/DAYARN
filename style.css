@@ -124,7 +124,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     justify-content: center;
-    height: 400px;
+    height: 500px;
     margin-top: 6%;
 }
 .footer-first{
@@ -138,9 +138,14 @@
     width: 95%;
     padding: 3px;
     margin-left: -6px;
+    margin-top: 5px;
+    position: relative;
+    top: 5%;
 }
 .link-para p{
     line-height: 10px;
+    position: relative;
+    top: 7%;
 }
 .footer-first h3{
     font-size: 19px; 
@@ -154,6 +159,7 @@
     display: flex;
     left: -10%;
     position: relative;
+    top: 10%;
 }
 .lines1{
     height: 10px;
@@ -180,13 +186,14 @@
 iframe{
     width: 80%;
     height: 130%;
+    margin-top: 7%;
 }
 .location-sec{
     margin-left: 10px;
 }
 .last-foot{
     background-color: black;
-    height: 50px;
+    height: 74px;
     margin-top: 1px;
     color: white;
 }
@@ -195,6 +202,12 @@ iframe{
 }
 
 /* Reasponsive */
+@media (min-width: 1500px){
+    .navbar-collapse{
+        position: relative;
+        left: 15%;
+    }
+}
 @media (max-width: 1200px){
     .navbar-nav{
         padding-left: 1%;

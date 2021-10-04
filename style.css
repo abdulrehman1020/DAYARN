@@ -7,19 +7,18 @@
 
 /* NAVBAR */
 #nav-logo{
-    width: 40%;
+    width: 100%;
 }
-.nav-content li a{
+.nav-link{
     font-size: 14px;
-    font-weight: 100;
-    margin: 0px 3px;
-    padding-left: 10px;
-    color: #000;   
 }
-.nav-content{
-    margin-left: -16%;
+.navbar-brand{
+    width: 21%; 
 }
-.nav-content li a:hover{
+.navbar-nav{
+    padding-left: 17%;
+}
+.navbar-nav li a:hover{
     color: blue !important;   
 }
 .navbar{
@@ -55,7 +54,8 @@
     font-size: 16px;
 }
 .mission-text{
-    margin-left: auto;
+    margin-left: -2%;
+    margin-top: -1%;
 }
 
 /* WHAT WE DO */
@@ -72,7 +72,7 @@
     font-size: 15px;
 }
 .second-sec img{
-    width: 80%;
+    width: 90%;
 }
 .second-sec h4{
     text-align: center;
@@ -94,8 +94,13 @@
     margin-top: 0px;
 }
 .team-img img{
-    width: 70%;
+    width: 100%;
 }
+.team-info{
+    margin-top: 3%;
+    padding-left: 1%;
+}
+
 
 /* PARTNERS */
 
@@ -108,13 +113,6 @@
     justify-content: center;
     gap: 30px;
 }
-/* .sec-partner2{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 9%;
-    margin-top: 3%;
-} */
 .partner-img img{
     margin: 10px 10px;
 }
@@ -197,6 +195,11 @@ iframe{
 }
 
 /* Reasponsive */
+@media (max-width: 1200px){
+    .navbar-nav{
+        padding-left: 1%;
+    }
+}
 @media (max-width: 990px) {
     #pharma-img{
         height: 43%;
@@ -207,6 +210,7 @@ iframe{
     .nav-content{
         margin-left: 0%;
     }
+    
 }
 @media (max-width: 768px){
     .mission hr{
@@ -274,11 +278,11 @@ iframe{
     }        
 }
 @media (max-width: 535px) {
-    .navbar-toggler{
+    /* .navbar-toggler{
         position: relative;
         left: 80%;
         margin-top: -40px;
-    }
+    } */
 
 }
 @media (max-width: 375px){
@@ -291,11 +295,11 @@ iframe{
     .first-sec p {
         padding: 30px 0px;
     }
-    .navbar-toggler{
+    /* .navbar-toggler{
         position: relative;
         left: 80%;
         margin-top: -40px;
-    }
+    } */
      .footer-first{
         margin-left: 2%;
         width: 57%;
@@ -309,6 +313,9 @@ iframe{
         flex-direction: column;
         height: 100%;
     }   
+    #nav-logo{
+        width: 170%;
+    }
 }
 @media (max-width: 320px){
     .mission hr {
